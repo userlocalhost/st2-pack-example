@@ -1,0 +1,11 @@
+---
+name: output_context
+pack: mypack
+runner_type: run-python
+entry_point: output_context.py
+description: 'An example action to know how it works'
+enabled: true
+parameters:
+  context:
+    type: string
+    default: ''

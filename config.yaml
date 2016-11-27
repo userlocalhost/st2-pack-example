@@ -2,3 +2,6 @@
 sensor:
     directories:
         - /opt/stackstorm
+
+# This parameter is used by output_context action
+log: /tmp/output
