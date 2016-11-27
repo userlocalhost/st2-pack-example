@@ -1,0 +1,17 @@
+---
+class_name: "DirectorySensor"
+entry_point: "directory_sensor.py"
+description: "An example sensor to know how to implement it"
+poll_interval: 30
+trigger_types:
+    - name: "changed_file"
+      description: "Trigger which indicates a change of trigger"
+      payload_schema:
+          type: "object"
+          properties:
+              paths:
+                  type: "string"
+              time:
+                  type: "string"
+              status:
+                  type: "string"

@@ -1,1 +1,4 @@
 ---
+sensor:
+    directories:
+        - /opt/stackstorm
