@@ -71,4 +71,4 @@ class DirectorySensor(PollingSensor):
             'time': time,
             'status': status,
         }
-        self._sensor_service.dispatch(trigger="mypack.changed_file", payload)
+        self._sensor_service.dispatch(trigger="mypack.changed_file", payload=payload)
