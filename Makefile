@@ -11,4 +11,4 @@ setup:
 	st2 run packs.setup_virtualenv packs=$(PACK)
 
 register:
-	st2 run packs.load register=all
+	sudo st2ctl reload --register-all
